@@ -49,7 +49,7 @@ public class InsertActivity extends AppCompatActivity {
     private Spinner spnCategory, spnCity, spnCondition;
     private EditText edtTitle, edtPrice, edtDescription;
     private Switch switchFree;
-    private Button btnLocation, btnPost;
+    private Button btnPost;
     private ProgressBar progressBar;
     private MaterialToolbar toolbar;
 
@@ -79,7 +79,6 @@ public class InsertActivity extends AppCompatActivity {
         spnCondition = findViewById(R.id.spinner_condition);
         edtDescription = findViewById(R.id.editText_description);
         spnCity = findViewById(R.id.spinner_city);
-        btnLocation = findViewById(R.id.button_location);
         progressBar = findViewById(R.id.progressBar_insert);
         btnPost = findViewById(R.id.button_insert);
         toolbar = findViewById(R.id.toolbar_insert);
@@ -115,13 +114,6 @@ public class InsertActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 handlePostImage();
-            }
-        });
-
-        btnLocation.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(InsertActivity.this, MapsActivity.class));
             }
         });
 
