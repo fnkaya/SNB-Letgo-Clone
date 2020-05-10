@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sat Gitsin</string>
+    <string name="title_home">Ana Sayfa</string>
+    <string name="title_post">İlanlarım</string>
+    <string name="title_notifications">Favorilerim</string>
+    <string name="title_message">Mesajlarım</string>
+    <string name="name">isim</string>
+    <string name="update">Güncelle</string>
+    <string name="sell_your_stuff">Sat</string>
+    <string name="email">email</string>
+    <string name="want_to_login">Oturumu sonlandırmak istiyor musunuz?</string>
+    <string name="cancel">Hayır</string>
+    <string name="accept">Evet</string>
+    <string name="fill_required_fields">Lütfen Gerekli Alanları Doldurun</string>
+    <string name="updated_profile">Güncellendi</string>
+    <string name="email_not_verified">Email adresi onaylanmamış (Onaylamak içn tıklayın)</string>
+    <string name="verification_mail_sent">Onaylama maili gönderildi</string>
+    <string name="change_password_title">Şifre Değiştir</string>
+    <string name="change">Değiştir</string>
+    <string name="already_have_an_account_login">Zaten bir hesabım var!</string>
+    <string name="cant_send_empty_message">Boş mesaj gönderemezsin</string>
+    <string name="change_password">Şifre Değiştir</string>
+    <string name="change_post_state">İlan Durumunu Güncelle</string>
+    <string name="changing_post_state">İlan durumunu satıldı olarak güncellenecek. Onaylıyor musunuz?</string>
+    <string name="confirm">Onayla</string>
+    <string name="delete">Sil</string>
+    <string name="delete_your_account">Hesabını Sil</string>
+    <string name="deletin_post_confirm">İlanı silmek üzresiniz. Onaylıyor musunuz?</string>
+    <string name="deleting_post">İlan Siliniyor</string>
+    <string name="description_hint">Açıklama *</string>
+    <string name="display_name">İsim</string>
+    <string name="don_t_have_an_account_sing_up">Henüz bir hesabım yok</string>
+    <string name="edit_your_post">İlanı güncelle</string>
+    <string name="enter_email_address">Email Adresini Giriniz</string>
+    <string name="enter_new_password">Yeni Şifrenizi Giriniz</string>
+    <string name="enter_yout_message">Mesajınızı giriniz</string>
+    <string name="field_cant_be_empty">Bu alan boş bırakılamaz</string>
+    <string name="forget_password">Şifremi Unuttum</string>
+    <string name="location">Konum</string>
+    <string name="name_too_long">İsim çok uzun</string>
+    <string name="on_selling">Satılıyor</string>
+    <string name="on_sold">Satıldı</string>
+    <string name="password">şifre</string>
+    <string name="password_changed">Şifre Başarıyla Değiştirildi</string>
+    <string name="password_must_be_6">Şifre 6 karakterden uzun olmalı</string>
+    <string name="password_reset_link_send">Şifre sıfırlama bağlantısı gönderildi</string>
+    <string name="post">GÖNDER</string>
+    <string name="post_added_successfully">İlan Başarıyla Eklendi</string>
+    <string name="post_deleted">İlan Silindi</string>
+    <string name="post_has_been_deleted">Bu ilan sahibi tarafından silinmiştir</string>
+    <string name="post_updated">İlan Başarıyla Güncellendi</string>
+    <string name="price_hint">Fiyat *</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="reset_your_password">Şifreni Sıfırla</string>
+    <string name="ru_sure_delete_account">Hesabınızı silmek istediğinize emin misiniz?</string>
+    <string name="send">Gönder</string>
+    <string name="send_message">Mesaj Gönder</string>
+    <string name="sigin_failed">Giriş Hatalı</string>
+    <string name="sign_in_with_email">Email ile Giriş</string>
+    <string name="title_activity_maps">Harita</string>
+    <string name="title_hint">Başlık *</string>
+    <string name="upload_in_progress">Yükleme devam ediyor</string>
+    <string name="give_it_away_for_free">Ücretsiz satış</string>
+    <string name="post_added_favorite">İlan favorilerinize eklendi</string>
+    <string name="post_removed_favorite">İlan favori listenizden silindi</string>
+    <string name="post_publish_again">İlan yayına alınacak onaylıyor musunuz?</string>
+
+    <string-array name="category_filter">
+        <item>Tüm Kategoriler</item>
+        <item>Electronics</item>
+        <item>Home and Garden</item>
+        <item>Cars</item>
+    </string-array>
+
+    <string-array name="city_filter">
+        <item>Tüm Şehirler</item>
+        <item>Ankara</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+    </string-array>
+    <string name="something_went_wrong">Bir sorun oluştu</string>
+</resources>

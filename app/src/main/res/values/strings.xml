@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Let Sell It</string>
+    <string name="title_home">Home</string>
+    <string name="title_post">My Posts</string>
+    <string name="title_notifications">Watch List</string>
+    <string name="title_message">Message</string>
+    <string name="name">name</string>
+    <string name="update">Update</string>
+    <string name="sell_your_stuff">Sell Your Stuff</string>
+    <string name="email">email</string>
+    <string name="want_to_login">Are you sure you want to leave?</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Yes</string>
+    <string name="fill_required_fields">Please Fill in The Required Fields</string>
+    <string name="updated_profile">Updated</string>
+    <string name="email_not_verified">Email address not verified (Click to Verify)</string>
+    <string name="verification_mail_sent">Verification mail sent</string>
+    <string name="change_password_title">Change Your Password</string>
+    <string name="change">Change</string>
+    <string name="edit_your_post">Edit your post</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="send_message">Send Message</string>
+    <string name="post_updated">Post Successfully Edited</string>
+    <string name="upload_in_progress">Upload in progress</string>
+    <string name="post_added_successfully">Post Added Successfully</string>
+    <string name="post">POST</string>
+    <string name="title_hint">Title *</string>
+    <string name="description_hint">Description *</string>
+    <string name="price_hint">Price *</string>
+    <string name="give_it_away_for_free">Give it away for free</string>
+    <string name="location">Location</string>
+    <string name="field_cant_be_empty">Field can\'t be empty</string>
+    <string name="sigin_failed">SignIn Failed!</string>
+    <string name="reset_your_password">Reset Your Password</string>
+    <string name="send">Send</string>
+    <string name="password_reset_link_send">Reset link has been send</string>
+    <string name="don_t_have_an_account_sing_up">Don\'t have an account? Sing Up</string>
+    <string name="sign_in_with_email">Sign In With Email</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="password">password</string>
+    <string name="cant_send_empty_message">You can\'t send empty message</string>
+    <string name="enter_yout_message">Enter your message</string>
+    <string name="display_name">Display Name</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_your_account">Delete Your Account</string>
+    <string name="password_changed">Password Changed Successfully</string>
+    <string name="ru_sure_delete_account">Are you sure want to delete your account?</string>
+    <string name="delete">Delete</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="name_too_long">Name too long</string>
+    <string name="password_must_be_6">Password must be at least 6 characters</string>
+    <string name="change_post_state">Update Post Status</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="post_added_favorite">Post added your favorite list</string>
+    <string name="post_removed_favorite">Post removed your favorite list</string>
+    <string name="changing_post_state">Post status will be updated as sold. Do you confirm?</string>
+    <string name="confirm">Confirm</string>
+    <string name="deletin_post_confirm">Post will be deleted. Do you confirm?</string>
+    <string name="deleting_post">Post deleting</string>
+    <string name="on_selling">On Selling</string>
+    <string name="on_sold">Sold</string>
+    <string name="post_deleted">Post Deleted</string>
+    <string name="post_has_been_deleted">This post was deleted by the owner</string>
+    <string name="post_publish_again">Post will be published again. Do you confirm?</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+
+    <string-array name="category">
+        <item>Electronics</item>
+        <item>Home and Garden</item>
+        <item>Cars</item>
+    </string-array>
+
+    <string-array name="category_filter">
+        <item>All Categories</item>
+        <item>Electronics</item>
+        <item>Home and Garden</item>
+        <item>Cars</item>
+    </string-array>
+
+    <string-array name="condition">
+        <item>New</item>
+        <item>Good</item>
+        <item>Poor</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Ankara</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+    </string-array>
+
+    <string-array name="city_filter">
+        <item>All Cities</item>
+        <item>Ankara</item>
+        <item>İstanbul</item>
+        <item>İzmir</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "815316304620",
+    "firebase_url": "https://sellnbuy-c6407.firebaseio.com",
+    "project_id": "sellnbuy-c6407",
+    "storage_bucket": "sellnbuy-c6407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815316304620:android:6fbe8260ee479bec9a1bc9",
+        "android_client_info": {
+          "package_name": "com.example.sellnbuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815316304620-s50gl357quae3h2b0p2kk9q97ppn28df.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sellnbuy",
+            "certificate_hash": "da044a5e7fd6ca53bcf69f56c38ac01f2d83dc17"
+          }
+        },
+        {
+          "client_id": "815316304620-kintn8ag3lcu10sbioo0a93idpgk2gc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sellnbuy",
+            "certificate_hash": "4aee91dabbe6b2710f814e7181fdc797a5faf2af"
+          }
+        },
+        {
+          "client_id": "815316304620-bumvtsvmaq66ockc2ukg22q47r8t3qv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs0DwMscSn2nZcJzupY3ZxdC2dvz_lywU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815316304620-bumvtsvmaq66ockc2ukg22q47r8t3qv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
