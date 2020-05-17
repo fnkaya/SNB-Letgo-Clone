@@ -102,7 +102,7 @@ public class ChatFragment extends Fragment implements ChannelAdapter.ChannelList
                                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void aVoid) {
-                                        Toast.makeText(getContext(), "Chat Silindi", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getContext(), "Messages removed", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                     }
