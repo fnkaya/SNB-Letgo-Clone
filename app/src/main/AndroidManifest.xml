@@ -12,7 +12,7 @@
         android:roundIcon="@drawable/ic_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.ChatActivity"></activity>
+        <activity android:name=".activity.MessageActivity"></activity>
         <activity android:name=".activity.EditActivity" />
         <activity android:name=".activity.DetailActivity" />
         <activity android:name=".activity.InsertActivity" />

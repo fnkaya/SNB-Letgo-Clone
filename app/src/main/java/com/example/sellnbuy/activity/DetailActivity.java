@@ -22,9 +22,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -111,7 +109,7 @@ public class DetailActivity extends AppCompatActivity {
             startActivity(intent);
         }
         else{
-            Intent intentMessage = new Intent(DetailActivity.this, ChatActivity.class);
+            Intent intentMessage = new Intent(DetailActivity.this, MessageActivity.class);
             intentMessage.putExtra(Post.OWNER_ID, post.getOwnerId());
             intentMessage.putExtra(Post.OWNER_NAME, post.getOwnerName());
             intentMessage.putExtra(Post.POST_ID, postId);

@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.sellnbuy.R;
-import com.example.sellnbuy.activity.ChatActivity;
 import com.example.sellnbuy.adapter.ChannelAdapter;
 import com.example.sellnbuy.model.Channel;
 import com.example.sellnbuy.model.Post;
@@ -83,7 +82,7 @@ public class ChatFragment extends Fragment implements ChannelAdapter.ChannelList
     @Override
     public void handleGetMessages(DocumentSnapshot snapshot) {
         Channel channel = snapshot.toObject(Channel.class);
-        Intent intent = new Intent(getActivity(), ChatActivity.class);
+        Intent intent = new Intent(getActivity(), MessageActivity.class);
         intent.putExtra(Post.OWNER_ID, channel.getReceiverId());
         intent.putExtra(Post.OWNER_NAME, channel.getReceiverName());
         intent.putExtra(Post.POST_ID, channel.getPostId());
@@ -93,8 +92,9 @@ public class ChatFragment extends Fragment implements ChannelAdapter.ChannelList
     @Override
     public void handleDeleteChat(final DocumentSnapshot snapshot) {
         new AlertDialog.Builder(getContext())
-                .setMessage("Siliniyor")
-                .setPositiveButton("Evet", new DialogInterface.OnClickListener() {
+                .setMessage("Messages will be deleted. Do you confirm?")
+                .setNegativeButton("CANCEL", null)
+                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         snapshot.getReference()

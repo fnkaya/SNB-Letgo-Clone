@@ -316,7 +316,6 @@ public class ProfileActivity extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(R.string.change_password_title)
-                .setIcon(R.drawable.ic_key)
                 .setView(view)
                 .setPositiveButton(R.string.change, new DialogInterface.OnClickListener() {
                     @Override

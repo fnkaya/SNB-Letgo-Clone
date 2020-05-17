@@ -216,7 +216,6 @@ public class LoginActivity extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(R.string.reset_your_password)
-                .setIcon(R.drawable.ic_key)
                 .setView(view)
                 .setCancelable(false)
                 .setNegativeButton(R.string.cancel, null)

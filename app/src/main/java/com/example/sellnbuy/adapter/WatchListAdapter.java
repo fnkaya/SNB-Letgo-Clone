@@ -53,7 +53,7 @@ public class WatchListAdapter extends FirestoreRecyclerAdapter<Favorite, WatchLi
                                     .load(post.getImageUri())
                                     .into(holder.imgPost);
                             holder.txtTitle.setText(post.getTitle());
-                            holder.txtPrice.setText(post.getPrice());
+                            holder.txtPrice.setText(post.getPrice() + "₺");
                             holder.txtDescription.setText(post.getDescription());
                         }
                         else{
@@ -92,7 +92,7 @@ public class WatchListAdapter extends FirestoreRecyclerAdapter<Favorite, WatchLi
                 public void onClick(View v) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(context);
                     builder.setTitle("Remove Favorite")
-                            .setMessage("İlan favori listenizden kaldırılacak. Onaylıyor musunuz?")
+                            .setMessage(R.string.remove_from_watchlist)
                             .setNegativeButton(R.string.cancel, null)
                             .setPositiveButton(R.string.confirm, new DialogInterface.OnClickListener() {
                                 @Override

@@ -84,8 +84,8 @@
             android:paddingStart="20dp"
             android:text="@string/sign_in_with_email"
             android:textAllCaps="false"
-            android:background="#fff"
-            android:textColor="#757575"
+            android:background="#ff0000"
+            android:textColor="#fff"
             android:drawableStart="@drawable/ic_email" />
     </androidx.cardview.widget.CardView>
 

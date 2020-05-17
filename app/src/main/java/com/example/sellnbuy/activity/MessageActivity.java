@@ -26,7 +26,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 
-public class ChatActivity extends AppCompatActivity {
+public class MessageActivity extends AppCompatActivity {
 
     private static final String TAG = "ChatActivity";
 
@@ -48,7 +48,7 @@ public class ChatActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat);
+        setContentView(R.layout.activity_message);
 
         fabSend = findViewById(R.id.fab_send);
         edtMessage = findViewById(R.id.editText_message);
@@ -76,7 +76,7 @@ public class ChatActivity extends AppCompatActivity {
                     edtMessage.setText("");
                 }
                 else
-                    Toast.makeText(ChatActivity.this, R.string.cant_send_empty_message, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MessageActivity.this, R.string.cant_send_empty_message, Toast.LENGTH_SHORT).show();
             }
         });
 
