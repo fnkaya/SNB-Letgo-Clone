@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td>
-      <img src="images/m7.png" /><br/>
+      <img src="images/m7.1.png" /><br/>
     </td>
     <td>
       <img src="images/m8.png" /><br/>
