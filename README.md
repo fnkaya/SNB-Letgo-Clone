@@ -8,6 +8,9 @@
     <td>
       <img src="images/m2.png" /><br/>
     </td>
+    <td>
+      <img src="images/m3.png" /><br/>
+    </td>
   </tr>
   <tr>
     <td>
